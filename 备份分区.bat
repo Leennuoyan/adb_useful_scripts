@@ -1,5 +1,5 @@
 @echo off
-title ±¸·Ý·ÖÇø¶þ½øÖÆÎÄ¼þ  by MIUIÂÛÌ³_Ç³À¶µÄµÆ
+title å¤‡ä»½åˆ†åŒºäºŒè¿›åˆ¶æ–‡ä»¶  by MIUIè®ºå›_æµ…è“çš„ç¯
 mode con lines=28 cols=64
 color 8f
 REM ________________________________________________________________
@@ -8,7 +8,7 @@ REM ________________________________________________________________
 
 if '%errorlevel%' NEQ '0' (
 
-    echo ÇëÇó¹ÜÀíÔ±È¨ÏÞ...
+    echo è¯·æ±‚ç®¡ç†å‘˜æƒé™...
 
     goto UACPrompt
 
@@ -35,38 +35,38 @@ REM ________________________________________________________________
 
 
 :A
-Rem É¾³ýÁÙÊ±ÎÄ¼þ
+Rem åˆ é™¤ä¸´æ—¶æ–‡ä»¶
 del %TempFile_Name% 1>nul 2>nul
 CLS
 color 3f
 mode con lines=36 cols=80
 cd /d %~dp0
 ECHO. ==============================================================
-ECHO. ±¸·Ý·ÖÇø¶þ½øÖÆÎÄ¼þ  by MIUIÂÛÌ³_Ç³À¶µÄµÆ
+ECHO. å¤‡ä»½åˆ†åŒºäºŒè¿›åˆ¶æ–‡ä»¶  by MIUIè®ºå›_æµ…è“çš„ç¯
 ECHO.
-ECHO. ÊÖ»úÐè¿ªÆôUSBµ÷ÊÔ²¢ÓëµçÄÔÁ¬½Ó£¬ÕýÈ·°²×°ºÃadbÇý¶¯£¨¿ÉÒÔÏÈ°²×°Ð¡Ã×ÖúÊÖ£©
+ECHO. æ‰‹æœºéœ€å¼€å¯USBè°ƒè¯•å¹¶ä¸Žç”µè„‘è¿žæŽ¥ï¼Œæ­£ç¡®å®‰è£…å¥½adbé©±åŠ¨ï¼ˆå¯ä»¥å…ˆå®‰è£…å°ç±³åŠ©æ‰‹ï¼‰
 ECHO.
-echo  ¹Ø±ÕËùÓÐÖúÊÖÀàÈí¼þ(½¨ÒéÔÚÈÎÎñ¹ÜÀíÆ÷½áÊø½ø³Ì)
+echo  å…³é—­æ‰€æœ‰åŠ©æ‰‹ç±»è½¯ä»¶(å»ºè®®åœ¨ä»»åŠ¡ç®¡ç†å™¨ç»“æŸè¿›ç¨‹)
 ECHO. ==============================================================
 ECHO.
 PAUSE
 cls
 ECHO. ====================================================
 ECHO.
-ECHO. ÕýÔÚ³¢ÊÔÖØÆôADB·þÎñ~
+ECHO. æ­£åœ¨å°è¯•é‡å¯ADBæœåŠ¡~
 ECHO.
 ECHO. ====================================================
 ECHO.
 netstat -ano |findstr "5037"
 echo.
 set pid=
-set /p pid= ÊäÈëLISTENING ºóÃæµÄÊý×Ö(Ã»ÓÐ¾Í¿Õ×Å),È»ºóºó»Ø³µ:
+set /p pid= è¾“å…¥LISTENING åŽé¢çš„æ•°å­—(æ²¡æœ‰å°±ç©ºç€),ç„¶åŽåŽå›žè½¦:
 if /i "%pid%"=="" goto T
 tasklist|findstr "%pid%"
 echo.
 taskkill /f /pid %pid%&&goto T||echo.
-echo ½áÊø½ø³ÌÊ§°Ü£¬ÇëÔÚÈÎÎñ¹ÜÀíÆ÷ÊÖ¶¯½áÊøºó°´ÈÎÒâ¼ü¼ÌÐø¡­¡­
-echo ½ø³ÌÃûÔÚ¡°%pid%¡±µÄÇ°Ãæ,Ò»°ãÎªÊÖ»úÖúÊÖÀà&pause >nul
+echo ç»“æŸè¿›ç¨‹å¤±è´¥ï¼Œè¯·åœ¨ä»»åŠ¡ç®¡ç†å™¨æ‰‹åŠ¨ç»“æŸåŽæŒ‰ä»»æ„é”®ç»§ç»­â€¦â€¦
+echo è¿›ç¨‹ååœ¨â€œ%pid%â€çš„å‰é¢,ä¸€èˆ¬ä¸ºæ‰‹æœºåŠ©æ‰‹ç±»&pause >nul
 
 :T
 echo.
@@ -78,71 +78,71 @@ cls
 ECHO.
 ECHO  ==============================================================
 ECHO.
-echo ÖØÆô·þÎñÍê±Ï£¬ÇëÈ·±£ÏÂ·½Éè±¸ÁÐ±íÖÐÓÐÄãµÄÉè±¸¡£°´ÈÎÒâ¼ü¼ÌÐø¡­¡­
+echo é‡å¯æœåŠ¡å®Œæ¯•ï¼Œè¯·ç¡®ä¿ä¸‹æ–¹è®¾å¤‡åˆ—è¡¨ä¸­æœ‰ä½ çš„è®¾å¤‡ã€‚æŒ‰ä»»æ„é”®ç»§ç»­â€¦â€¦
 ECHO.
 ECHO  ==============================================================
 ECHO.
-echo Éè±¸ÁÐ±í£º
+echo è®¾å¤‡åˆ—è¡¨ï¼š
 adb devices
 echo.
 PAUSE >nul
+
+:RETURN
 cls
 ECHO.
-ECHO  ÇëÔÚÏÂ·½ÊäÈëÐèÒª±¸·Ý·ÖÇøµÄÐòºÅÃû£¬ÀýÈç£ºmmcblk0p7
-ECHO  È»ºóÉèÖÃÊä³öÎÄ¼þÃû(²»º¬.img)£¬Èç£ºaboot È»ºó»Ø³µ¼ÌÐø
+ECHO  è¯·åœ¨ä¸‹æ–¹è¾“å…¥éœ€è¦å¤‡ä»½åˆ†åŒºçš„åºå·åï¼Œä¾‹å¦‚ï¼šmmcblk0p7
+ECHO  ç„¶åŽè®¾ç½®è¾“å‡ºæ–‡ä»¶å(ä¸å«.img)ï¼Œå¦‚ï¼šaboot ç„¶åŽå›žè½¦ç»§ç»­
 ECHO.
 set mmc=
-set /p mmc= ÌîÐ´·ÖÇøÐòºÅÃû:
+set /p mmc= å¡«å†™åˆ†åŒºåºå·å:
 echo.
 set bac=
-set /p bac= ÉèÖÃÊä³öÎÄ¼þÃû:
+set /p bac= è®¾ç½®è¾“å‡ºæ–‡ä»¶å:
 ECHO. 
 ECHO  ==============================================================
-ECHO    ¿ªÊ¼´ÓÊÖ»ú¸´ÖÆ·ÖÇø¶þ½øÖÆÊý¾Ýµ½ sdcard
+ECHO    å¼€å§‹ä»Žæ‰‹æœºå¤åˆ¶åˆ†åŒºäºŒè¿›åˆ¶æ•°æ®åˆ° sdcard
 echo.
-echo    ÔÚ·Ö¸ô·ûÏÂ·½ÊÇ·ñ¿´¼û ÀàËÆ ÈçÏÂÌáÊ¾,
+echo    åœ¨åˆ†éš”ç¬¦ä¸‹æ–¹æ˜¯å¦çœ‹è§ ç±»ä¼¼ å¦‚ä¸‹æç¤º,
 echo.
 echo    1024+0 records in
 echo    1024+0 records out
 echo    4194304 bytes transferred in 0.218 secs ^<19239926 bytes/sec^>
 echo. 
-echo    Èç¹û¿´µ½ÒÔÉÏÌáÊ¾£¬Ö¤Ã÷¸´ÖÆ³É¹¦£¬°´ÈÎÒâ¼ü¼ÌÐø¡£
+echo    å¦‚æžœçœ‹åˆ°ä»¥ä¸Šæç¤ºï¼Œè¯æ˜Žå¤åˆ¶æˆåŠŸï¼ŒæŒ‰ä»»æ„é”®ç»§ç»­ã€‚
 echo.
 ECHO ===============================================================
 echo.
 echo.
 adb shell su -c "dd if=/dev/block/%mmc% of=/sdcard/%bac%.img bs=4096"
 ECHO.
+taskkill /f /im adb.exe
 pause >nul
 cls
 ECHO. 
-echo  ÏÂÃæ°Ñ·ÖÇø±¸·ÝÎÄ¼þ±£´æµ½µçÄÔÉÏ£¬ÊäÈëÐèÒª±£´æµÄ´ÅÅÌ(´¿×ÖÄ¸)£¬ÀýÈç£ºD
+echo  ä¸‹é¢æŠŠåˆ†åŒºå¤‡ä»½æ–‡ä»¶ä¿å­˜åˆ°æœ¬ç›®å½•
 echo.
-set back=
-set /p back= ±£´æµ½:
-cls
 echo.
 ECHO. ==============================================================
 echo.
-echo    ÔÚ·Ö¸ô·ûÏÂ·½ÊÇ·ñ¿´¼û ÀàËÆ ÈçÏÂÌáÊ¾,
+echo    åœ¨åˆ†éš”ç¬¦ä¸‹æ–¹æ˜¯å¦çœ‹è§ ç±»ä¼¼ å¦‚ä¸‹æç¤º,
 echo.
 echo    2573 KB/s ^<4194304 bytes in 2.146s^>
-echo    »òÕß
+echo    æˆ–è€…
 echo    [100%] /sdcard/xxxxxx.img
 echo.
-echo    Èç¹û¿´µ½ÒÔÉÏÌáÊ¾£¬Ö¤Ã÷µ¼³ö³É¹¦£¬°´ÈÎÒâ¼ü¼ÌÐø¡£
+echo    å¦‚æžœçœ‹åˆ°ä»¥ä¸Šæç¤ºï¼Œè¯æ˜Žå¯¼å‡ºæˆåŠŸï¼ŒæŒ‰ä»»æ„é”®ç»§ç»­ã€‚
 echo.
 ECHO. ==============================================================
 echo.
 echo.
-adb pull /sdcard/%bac%.img %back%:/
+adb pull /sdcard/%bac%.img ./
 pause >nul
 cls
+color cf
 ECHO. ===========================================================
 ECHO.
-echo Çë¼ì²é %back%:/ ÏÂ·ñÓÐÎÄ¼þÉú³É£¬±¾Èí¼þ½«ÓÚ3Ãëºó×Ô¶¯ÍË³ö
+echo è¯·æ£€æŸ¥ %back%:/ ä¸‹å¦æœ‰æ–‡ä»¶ç”Ÿæˆï¼Œ3åŽè‡ªåŠ¨è¿”å›ž
 ECHO.
 ECHO. ===========================================================
-ping 127.0.0.1 /n 4 >nul
-start %back%:/
-exit 
+ping 127.0.0.1 /n 3 >nul
+GOTO RETURN
