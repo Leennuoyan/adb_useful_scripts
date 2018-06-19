@@ -1,13 +1,13 @@
-# Google-ADB
-##收录、编写了一些实用的adb小脚本  
+# adb_useful_scripts
+## 收录、编写了一些实用的adb小脚本  
 
 
-[![website](https://img.shields.io/badge/website-Hui的小院-red.svg)](https://dq1503.bid)
+[![miui](https://img.shields.io/badge/MIUI论坛-@浅蓝的灯-orange.svg)](http://www.miui.com/home.php?mod=space&uid=1561677869)
+[![website](https://img.shields.io/badge/website-@hui-blue.svg)](https://dq1503.bid)
 
 
 
-
-###正确食用方法：
+### 正确食用方法：
 
 
 1.首先下载 notepad++ 安装（一路默认next即可），下载 platform-tools 解压。
