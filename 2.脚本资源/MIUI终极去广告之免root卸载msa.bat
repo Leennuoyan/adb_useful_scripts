@@ -2,6 +2,41 @@
 title MIUI终极去广告之免root卸载 msa By MIUI论坛-浅蓝的灯
 color 2f
 mode con lines=30 cols=68
+REM ________________________________________________________________
+
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+
+if '%errorlevel%' NEQ '0' (
+
+    echo 请求管理员权限...
+
+    goto UACPrompt
+
+) else ( goto gotAdmin )
+
+:UACPrompt
+
+    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
+
+    echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
+
+    "%temp%\getadmin.vbs"
+exit /B
+
+:gotAdmin
+
+    if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
+    pushd "%CD%"
+    CD /D "%~dp0"
+	goto A
+
+REM ________________________________________________________________
+
+
+:A
+Rem 删除临时文件
+del %TempFile_Name% 1>nul 2>nul
+CLS
 cd /d %~dp0
 ECHO. ==============================================================
 ECHO  MIUI 在很多地方加了广告(比如软件启动时，比如作业帮)，有些是可以关闭的，但有些不能。
