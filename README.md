@@ -2,7 +2,7 @@
 ##收录、编写了一些实用的adb小脚本  
 
 
-[![website](https://img.shields.io/badge/website- Hui 的小院-red.svg)](https://dq1503.bid)
+[![website](https://img.shields.io/badge/website-Hui 的小院-red.svg)](https://dq1503.bid)
 
 
 
