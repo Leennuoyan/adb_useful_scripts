@@ -7,7 +7,6 @@
 
 
 1.首先下载 notepad++ 安装（一路默认next即可），下载 platform-tools 解压。
-
 *若本页面下载过慢可以移步百度云：https://pan.baidu.com/s/1-03f_pZwRthbcoRFZbZEtQ
 
 
