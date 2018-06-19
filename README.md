@@ -1,14 +1,18 @@
 # Google-ADB
-收录、编写了一些实用的adb小脚本  
+##收录、编写了一些实用的adb小脚本  
+
+
+![Package Control](https://img.shields.io/packagecontrol/dt/GitGutter.svg)
+[![website](https://img.shields.io/badge/website-Hui的小院-red.svg)](https://dq1503.bid)
 
 
 
-正确食用方法：
+###正确食用方法：
 
 
 1.首先下载 notepad++ 安装（一路默认next即可），下载 platform-tools 解压。
 
-*若本页面下载过慢可以移步百度云：https://pan.baidu.com/s/1-03f_pZwRthbcoRFZbZEtQ
+*若本页面下载过慢可以移步百度云：[点击此处前往>>>](https://pan.baidu.com/s/1-03f_pZwRthbcoRFZbZEtQ)*
 
 
 2.打开解压好的 platform-tools 文件夹(要在有很多exe的那一层)，然后 新建文本文档， 右键-Edit with Notepad++，粘贴你需要的脚本内容。
