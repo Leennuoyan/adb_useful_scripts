@@ -151,12 +151,12 @@ echo.
 echo.
 echo ====================命令执行结果==================
 echo.
-adb shell pm disable --user 0 com.miui.systemAdSolution
+adb shell pm disable-user --user 0 com.miui.systemAdSolution
 echo.
 echo ==================================================
 echo.
 echo.
-echo 如果看见 Success 字样即为成功。
+echo 如果看见 new state: disabled-user 字样即为成功。
 echo.
 echo 然后尽情享受吧~（万能遥控效果明显）
 echo.
@@ -215,12 +215,12 @@ echo.
 echo.
 echo ====================命令执行结果==================
 echo.
-adb shell pm disable --user 0 com.miui.msa.global
+adb shell pm disable-user --user 0 com.miui.msa.global
 echo.
 echo ==================================================
 echo.
 echo.
-echo 如果看见 Success 字样即为成功。
+echo 如果看见 new state: disabled-user 字样即为成功。
 echo.
 echo 然后尽情享受吧~（万能遥控效果明显）
 echo.
