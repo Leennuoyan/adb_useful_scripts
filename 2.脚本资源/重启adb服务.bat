@@ -76,6 +76,10 @@ ECHO.
 ECHO  ==============================================================
 ECHO.
 echo 重启服务完毕，请确保下方设备列表中有你的设备。按任意键继续……
+echo.
+echo 如果出现：
+echo cannot open transport registration socketpair: Invalid argument
+echo 请关闭系统自带防火墙（特别是Windows10）
 ECHO.
 ECHO  ==============================================================
 ECHO.
