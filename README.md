@@ -2,7 +2,7 @@
 ## 收录、编写了一些实用的adb小脚本  
 
 
-[![miui](https://img.shields.io/badge/MIUI Forum-@15611677869-orange.svg)](http://www.miui.com/home.php?mod=space&uid=1561677869)
+[![miui](https://img.shields.io/badge/MIUI论坛-@浅蓝的灯-orange.svg)](http://www.miui.com/home.php?mod=space&uid=1561677869)
 [![website](https://img.shields.io/badge/website-@hui-blue.svg)](https://dq1503.bid)
 
 
