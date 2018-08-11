@@ -25,4 +25,4 @@
 
 
 
-Ps: 脚本中写到的 MIUI论坛-浅蓝的灯 也是本人，欢迎到论坛一起开森。
+Ps: 脚本中写到的 [MIUI论坛-浅蓝的灯](http://www.miui.com/home.php?mod=space&uid=1561677869)* 也是本人，欢迎到论坛一起开森。
