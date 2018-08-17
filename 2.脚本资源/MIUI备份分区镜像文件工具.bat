@@ -58,6 +58,7 @@ echo  ----------------------请选择(序号)----------------------------
 echo.
 echo            1.重启adb服务(建议先执行)
 echo            2.直接开始备份
+echo            3.退出
 echo. 
 ECHO. ==============================================================
 ECHO.
@@ -66,6 +67,7 @@ set /p input= 选择:
 echo.
 IF /I "%input%"=="1" GOTO restart
 IF /I "%input%"=="2" GOTO begin
+IF /I "%input%"=="3" exit
 cls
 color cf
 echo.
@@ -183,7 +185,16 @@ pause
 GOTO save
 
 :2
-adb shell "dd if=/dev/block/%name% of=/sdcard/%outname%.img bs=4096"
+adb shell "dd if=/dev/block/%name% of=/sdcard/%outname%.img bs=4096" || (
+	echo 获取失败，正在尝试无root方法2 & ping 127.0.0.1 /n 2 >nul
+	echo.
+	adb shell "cat /dev/block/%name% > /sdcard/%outname%.img"||(
+		echo.
+		echo 仍然失败，建议获取root后重试,按任意键回到root选择页面 & pause>nul
+		cls & goto rootif
+
+		)
+)
 echo.
 pause
 GOTO save
