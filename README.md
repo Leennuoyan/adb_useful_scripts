@@ -10,14 +10,14 @@
 ### 正确食用方法：
 
 
-	#### 方法1：(方便快捷)
+ #### 方法1：(方便快捷)
 
-去 releases 页面下载解压即可。[点击此前往>>>](https://github.com/hui-shao/adb_useful_scripts/releases)
+	去 releases 页面下载解压即可。[点击此前往>>>](https://github.com/hui-shao/adb_useful_scripts/releases)
 
 
-	#### 方法2：(可以及时用上最新版)
+ #### 方法2：(可以及时用上最新版)
 
-1.首先下载 notepad++ 安装（一路默认next即可），下载 platform-tools 解压。
+	1.首先下载 notepad++ 安装（一路默认next即可），下载 platform-tools 解压。
 
 *若本页面下载过慢可以移步百度云：[点击此处前往>>>](https://pan.baidu.com/s/1-03f_pZwRthbcoRFZbZEtQ)
 
