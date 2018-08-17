@@ -10,9 +10,16 @@
 ### 正确食用方法：
 
 
+#### 方法1：(方便快捷)
+
+去 releases 页面下载解压即可。[点击此前往>>>](https://github.com/hui-shao/adb_useful_scripts/releases)
+
+
+#### 方法2：(可以及时用上最新版)
+
 1.首先下载 notepad++ 安装（一路默认next即可），下载 platform-tools 解压。
 
-*若本页面下载过慢可以移步百度云：[点击此处前往>>>](https://pan.baidu.com/s/1-03f_pZwRthbcoRFZbZEtQ)*
+*若本页面下载过慢可以移步百度云：[点击此处前往>>>](https://pan.baidu.com/s/1-03f_pZwRthbcoRFZbZEtQ)
 
 
 2.打开解压好的 platform-tools 文件夹(要在有很多exe的那一层)，然后 新建文本文档， 右键-Edit with Notepad++，粘贴你需要的脚本内容。
@@ -25,4 +32,5 @@
 
 
 
-Ps: 脚本中写到的 [MIUI论坛-浅蓝的灯](http://www.miui.com/home.php?mod=space&uid=1561677869)* 也是本人，欢迎到论坛一起开森。
+
+Ps: 脚本中写到的 [MIUI论坛-浅蓝的灯](http://www.miui.com/home.php?mod=space&uid=1561677869)也是本人，欢迎到论坛一起开森。
