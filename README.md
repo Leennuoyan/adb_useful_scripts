@@ -15,6 +15,7 @@
   去 releases 页面下载解压即可。[点击此前往>>>](https://github.com/hui-shao/adb_useful_scripts/releases)
 
 
+  
 ####  方法2：(可以及时用上最新版)
 
   1.首先下载 notepad++ 安装（一路默认next即可），下载 platform-tools 解压。
@@ -32,5 +33,6 @@
 
 
 
-
+*****
+  
 > #### Ps: 脚本中写到的 [MIUI论坛-浅蓝的灯](http://www.miui.com/home.php?mod=space&uid=1561677869)也是本人，欢迎到论坛一起开森。
