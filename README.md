@@ -20,9 +20,7 @@
  *若本页面下载过慢可以移步百度云：[点击此处前往>>>](https://pan.baidu.com/s/1-03f_pZwRthbcoRFZbZEtQ)*
 2. 打开解压好的 platform-tools 文件夹(要在有很多exe的那一层)，然后 新建文本文档， 右键-Edit with Notepad++，粘贴你需要的脚本内容。
 3. 在notepad++中菜单栏点击 编码-转为ANSI编码，然后保存文件，重命名文件修改后缀为 bat。（这个不会请自行百度哈）
-4. 双击脚本运行（一般要先连上开启adb调试手机），然后 Enjoy it ！
-
-
+4. 双击脚本运行（一般要先连上手机，并在手机上开启adb调试），然后 Enjoy it ！
 
 *****
   
