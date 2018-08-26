@@ -1,10 +1,12 @@
 # adb_useful_scripts
 ## 收录、编写了一些实用的adb小脚本  
 
-
-[![miui](https://img.shields.io/badge/MIUI论坛-@浅蓝的灯-orange.svg)](http://www.miui.com/home.php?mod=space&uid=1561677869)
-[![website](https://img.shields.io/badge/website-@hui-blue.svg)](https://dq1503.bid)
-
+<p align="center">
+<img src="https://img.shields.io/badge/license-mit-lightgrey.svg?longCache=true&style=for-the-badge">
+<img src="https://img.shields.io/badge/version-1.0.0-green.svg?longCache=true&style=for-the-badge">
+[![miui](https://img.shields.io/badge/MIUI论坛-@浅蓝的灯-orange.svg?longCache=true&style=for-the-badge)](http://www.miui.com/home.php?mod=space&uid=1561677869)
+[![website](https://img.shields.io/badge/website-@hui-blue.svg?longCache=true&style=for-the-badge)](https://dq1503.bid)
+</p>
 
 
 ### 正确食用方法：
