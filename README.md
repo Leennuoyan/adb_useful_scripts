@@ -5,7 +5,6 @@
 <img src="https://img.shields.io/badge/license-mit-lightgrey.svg?longCache=true&style=for-the-badge">
 <img src="https://img.shields.io/badge/version-1.0.0-green.svg?longCache=true&style=for-the-badge">
 <a href="http://www.miui.com/home.php?mod=space&uid=1561677869"><img src="https://img.shields.io/badge/MIUI论坛-@浅蓝的灯-orange.svg?longCache=true&style=for-the-badge"></a>
-<a href="https://dq1503.bid"><img src="https://img.shields.io/badge/website-@hui-blue.svg?longCache=true&style=for-the-badge"></a>
 </p>
 
 
