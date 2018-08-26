@@ -1,5 +1,5 @@
 # adb_useful_scripts
-## 收录、编写了一些实用的adb小脚本  
+收录、编写了一些实用的adb小脚本  
 
 <p align="center">
 <img src="https://img.shields.io/badge/license-mit-lightgrey.svg?longCache=true&style=for-the-badge">
@@ -8,16 +8,16 @@
 </p>
 
 
-### 正确食用方法：
+## 正确食用方法：
 
 
-####  方法1：(方便快捷)
+###  方法1：(方便快捷)
 
   去 releases 页面下载解压即可。[点击此前往>>>](https://github.com/hui-shao/adb_useful_scripts/releases)
 
 
   
-####  方法2：(可以及时用上最新版)
+###  方法2：(可以及时用上最新版)
 
   1.首先下载 notepad++ 安装（一路默认next即可），下载 platform-tools 解压。
 
